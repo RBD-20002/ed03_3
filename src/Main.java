@@ -4,7 +4,6 @@ import java.util.logging.Logger;
 import java.util.logging.FileHandler;
 import java.util.logging.SimpleFormatter;
 
-
 public class Main {
     private static final Logger logger = Logger.getLogger(Main.class.getName());
 
@@ -15,7 +14,10 @@ public class Main {
             fileHandler.setFormatter(new SimpleFormatter());
             logger.addHandler(fileHandler);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.severe("Error al configurar el archivo de logs: " + e.getMessage());
+            for (StackTraceElement element : e.getStackTrace()) {
+                logger.severe(element.toString());  // Registrar la traza completa
+            }
         }
     }
     public static void main(String[] args) {
