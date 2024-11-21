@@ -1,0 +1,14 @@
+nov 21, 2024 2:19:52 A. M. Main calcularSubtotal
+INFO: Producto: Laptop, Cantidad: 1, Precio unitario: 1200.0, Subtotal actual: 1200.0
+nov 21, 2024 2:19:52 A. M. Main calcularSubtotal
+INFO: Producto: Telefono, Cantidad: 2, Precio unitario: 600.0, Subtotal actual: 2400.0
+nov 21, 2024 2:19:52 A. M. Main calcularSubtotal
+INFO: Producto: Auriculares, Cantidad: 1, Precio unitario: 150.0, Subtotal actual: 2550.0
+nov 21, 2024 2:19:52 A. M. Main calcularTotalCompra
+INFO: Subtotal calculado: 2550.0
+nov 21, 2024 2:19:52 A. M. Main calcularTotalCompra
+INFO: Descuento aplicado: 382.5
+nov 21, 2024 2:19:52 A. M. Main calcularImpuestos
+INFO: Impuestos calculados: 455.175
+nov 21, 2024 2:19:52 A. M. Main calcularTotalCompra
+INFO: Total tras aplicar impuestos: 2622.675
